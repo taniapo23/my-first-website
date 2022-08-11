@@ -1,15 +1,167 @@
-h1 {
-    color: blue;
-}
-
 
 .imageIntro {
-    height: 500px;
-    width: 800px;
+    padding: 70px;
+    height: 600px;
+    width: 600px;
+
+   
+}
+
+.imageOil {
+    height: 450px;
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
-.handImg {
-  font-size: 60px;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+.responsive {
+    width: 50%;
+    height: auto;
+}
+ body {
+    background-image: url(images/background1.png.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   
+  }
+
+
+ .mainHeader {
+     color: rgba(244, 57, 57, 1);
+    
+      margin-left: 10%;
+      margin-right: 10%;
+       text-align: center;
+       font-family: 'EB Garamond', serif;
+       padding-top: 50px;
+       font-size: 50px;
+       font-weight: bold;
+       
+    }
+
+.theStyleNav {
+    height: 60px;
+    
+}
+
+.Paragraph {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'EB Garamond', serif;
+  
+}
+
+.strongColor { 
+    color: coral;
+
+}
+
+.theHeader {
+    font-weight: bold;
+
+}
+
+.para {
+    font-style: italic;
+    font-weight: 700;
     color: red;
 }
+
+.hair {
+    height: 24px;
+    width: 24px;
+    
+}
+
+.space {
+    padding-right: 40px;
+}
+
+.spaceSearch {
+    padding-right: 300px;
+}
+ 
+.nameProduct {
+    text-align: center;
+    color: coral;
+    font-size: 60px;
+    font-family: 'Dosis', sans-serif;
+    padding-bottom: 20px;
+}
+
+.table-media {
+    width: 80%;
+    
+   margin-right: 15%;
+   margin-left: 10%;
+   font-size: 20px;
+   font-family:'Dosis', sans-serif;
+   
+  }
+  .preparation {
+    padding-top: 50px;
+    font-family: 'EB Garamond', serif;
+    text-align: left;
+    }
+  
+ 
+
+
+@media (max-width: 568px) { 
+
+ .mainHeader {
+        font-size: 35px;
+    
+     }  
+     .Paragraph { 
+        font-size: 20px;
+     }
+    
+     .theHeader {
+      font-size: 25px;
+       }
+       .table-media {
+        font-size: 15px;
+       }
+
+   }
+  
+    
+ 
+ @media (min-width: 1100px) {  
+  .mainHeader {
+        font-size: 80px;
+    
+     }  
+     .Paragraph { 
+        font-size: 35px;
+     }
+    
+     .theHeader {
+      font-size: 40px;
+       }
+
+       .table-media {
+        font-size: 25px;
+       }
+       
+       
+
+   }
+  
+ 
+ 
