@@ -13,7 +13,19 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
 
+}
+
+.imageButter {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 
